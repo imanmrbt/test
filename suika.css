@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./sloth.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;}
+
+p{
+    font-size: 82px;
+    font-family: "calibri";
+    color:deepskyblue;
+}

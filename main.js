@@ -66,10 +66,10 @@ var  Bodies = Matter.Bodies,
   Render = Matter.Render,
   Runner = Matter.Runner,
   World = Matter.World;
-  
   Body = Matter.Body,
   Sleeping = Matter.Sleeping,
-  Collision = Matter.Collision;
+  Collision = Matter.Collision,
+Events = Matter.Events;
 
 const engine = Engine.create();
 const render = Render.create({

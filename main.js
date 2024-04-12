@@ -3,19 +3,16 @@ const HEADS = [
     label: "one",
     radius: 40 / 2,
     color: "#F20306",
-    texture: "/one.png"
   },
   {
     label: "two",
     radius: 50 / 2,
     color: "#FF624C",
-    texture: "/two.png"
   },
   {
     label: "three",
     radius: 72 / 2,
     color: "#A969FF",
-    texture: "/three.png"
   },
   {
     label: "four",
@@ -68,8 +65,8 @@ var  Bodies = Matter.Bodies,
   World = Matter.World;
   Body = Matter.Body,
   Sleeping = Matter.Sleeping,
-  Collision = Matter.Collision,
-Events = Matter.Events;
+  Collision = Matter.Collision;
+//Events = Matter.Events;
 
 const engine = Engine.create();
 const render = Render.create({
@@ -135,7 +132,7 @@ function addCurrentHead() {
     isSleeping: true,
     render: {
       fillStyle: randomHead.color,
-      sprite: { texture: `/${randomHead.label}.png` }, 
+    //  sprite: { texture: `/${randomHead.label}.png` }, 
     },
     restitution: 0.7,
   });

@@ -66,7 +66,7 @@ var  Bodies = Matter.Bodies,
   Body = Matter.Body,
   Sleeping = Matter.Sleeping,
   Collision = Matter.Collision;
-//Events = Matter.Events;
+  Events = Matter.Events;
 
 const engine = Engine.create();
 const render = Render.create({
